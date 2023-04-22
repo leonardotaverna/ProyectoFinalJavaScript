@@ -1,0 +1,73 @@
+body{
+    background-color: red;
+    color: aliceblue;
+}
+
+button{
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5px;
+    gap: 5px;
+    height: auto;
+    justify-content: space-around;
+    text-align: center;
+    border:solid black;
+    color:#833737;
+    background-color: pink;
+    width:auto;
+    border-radius: 20px;
+}
+
+.titulo{
+    font-size: 1.5rem;
+}
+
+
+img{
+    height: 7rem;
+    width: 3rem;
+    aspect-ratio: 1/1;
+} 
+
+.carrito{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    gap: 10px;
+    height: auto;
+    justify-content: space-around;
+    text-align: center;
+    border:solid black;
+    color:#833737;
+    background-color: rgb(134, 191, 196);
+    width:auto;
+    border-radius: 20px;
+}
+
+.tarjeta{
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.card{
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.totalCompra{
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: #1b3c85;
+    margin: 10px;
+    width: 100%;
+    font-size: larger;
+    justify-content: center;
+   
+}
